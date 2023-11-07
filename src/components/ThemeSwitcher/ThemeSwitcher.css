@@ -1,0 +1,48 @@
+hr {
+    width: 90%;
+    margin: auto;
+    border-width: 1px;
+    border-style: solid;
+}
+
+hr.light {
+    border-color: black;
+}
+
+hr.dark {
+    border-color: whitesmoke;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 40px 0;
+}
+
+section.light {
+    background-color: whitesmoke;
+}
+
+section.dark {
+    background-color: black;
+}
+
+button.light {
+    padding: 8px 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    color: black;
+}
+
+button.dark {
+    padding: 8px 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
